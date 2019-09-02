@@ -38,7 +38,7 @@ module.exports = {
         'localizedfooter': {
             process: function(block) {
                 var hline = cfg.hline ? '<hr>' : '';
-                return '<div id="page-footer" class="localized-footer">' + hline + block.body + '</div>';
+                return '<footer id="page-footer" class="localized-footer">' + hline + block.body + '</footer>';
             }
         }
     }
